@@ -1,6 +1,6 @@
 class Book extends HTMLElement {
   static get observedAttributes() {
-    return ["title"];
+    return ["cover"];
   }
 
   constructor() {
